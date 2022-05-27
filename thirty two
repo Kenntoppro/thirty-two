@@ -1,0 +1,22 @@
+tir = int(input())
+bir = int(input())
+rio = int(input())
+if tir < 0:
+   tir = 0
+a = tir // 1000
+b = (tir // 100) % 10
+c = (tir % 100) // 10
+d = tir % 10
+if bir < 0:
+   bir = 0
+a1 = bir // 1000
+b1 = (bir // 100) % 10
+c1 = (bir % 100) // 10
+d1 = bir % 10
+if rio < 0:
+   rio = 0
+a2 = rio // 1000
+b2 = (rio // 100) % 10
+c2 = (rio % 100) // 10
+d2 = rio % 10
+print(a + b + c + d + a1 + b1 + c1 + d1 + a2 + b2 + c2 + d2)
